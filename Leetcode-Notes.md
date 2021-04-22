@@ -10,7 +10,7 @@
 
 ## Algorithm
 
-* [Two Pointer](https://hackmd.io/gmuDdmFZRNqimBUUX9xI4g)
+* [Two Pointer](https://github.com/shaojim12/Leetcode-notes/blob/master/Two%20Pointers.md)
 * Sort
 * Greedy
 * Binary Search
