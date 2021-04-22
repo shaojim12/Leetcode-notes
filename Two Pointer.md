@@ -1,7 +1,7 @@
 # Two Pointer
 
-* [167. Two Sum II - Input array is sorted (Easy)](https://github.com/shaojim12/Leetcode-notes/blob/master/Two%20Pointers.md#167-two-sum-ii---input-array-is-sorted)
-* [633. Sum of Square Numbers (Medium)]()
+* [167. Two Sum II - Input array is sorted (Easy)](https://github.com/shaojim12/Leetcode-notes/blob/master/Two%20Pointer.md#167-two-sum-ii---input-array-is-sorted-easy)
+* [633. Sum of Square Numbers (Medium)](https://github.com/shaojim12/Leetcode-notes/blob/master/Two%20Pointer.md#633-sum-of-square-numbers-medium)
 
 ## 167. Two Sum II - Input array is sorted (Easy)
 
