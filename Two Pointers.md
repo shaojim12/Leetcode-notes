@@ -1,6 +1,6 @@
 # Two Pointers
 
-* 167. Two Sum II - Input array is sorted
+* [167. Two Sum II - Input array is sorted](https://github.com/shaojim12/Leetcode-notes/blob/master/Two%20Pointers.md#167-two-sum-ii---input-array-is-sorted)
 
 ## 167. Two Sum II - Input array is sorted
 
