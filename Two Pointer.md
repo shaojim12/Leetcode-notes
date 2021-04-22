@@ -1,11 +1,11 @@
 # Two Pointer
 
-* [167. Two Sum II - Input array is sorted (Easy)](https://github.com/shaojim12/Leetcode-notes/blob/master/Two%20Pointer.md#167-two-sum-ii---input-array-is-sorted-easy)
-* [633. Sum of Square Numbers (Medium)](https://github.com/shaojim12/Leetcode-notes/blob/master/Two%20Pointer.md#633-sum-of-square-numbers-medium)
+* [167. Two Sum II - Input array is sorted (Easy)]()
+* [633. Sum of Square Numbers (Medium)]()
 * [345. Reverse Vowels of a String (Easy)]()
 * [680. Valid Palindrome II (Easy)]()
 
-## 167. Two Sum II - Input array is sorted (Easy)
+## **167. Two Sum II - Input array is sorted (Easy)**
 
 Problem: Given an array of integers numbers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
 
@@ -32,7 +32,7 @@ class Solution:
                 left += 1
 ```
 
-## 633. Sum of Square Numbers (Medium)
+## **633. Sum of Square Numbers (Medium)**
 
 Problem: Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
 
@@ -60,13 +60,13 @@ class Solution:
                 right -= 1
 ```
 
-## 345. Reverse Vowels of a String (Easy)
+## **345. Reverse Vowels of a String (Easy)**
 
 Problem: Given a string s, reverse only all the vowels in the string and return it.
 
 String is not available to change their characters, so we use s = list(s) to change its type from string to list. Then at the bottom of the algorithm, we use join to combine list to string.
 
-### **join()** function
+### **join()** function in Python
 
 ```python
 list1 = ['1','2','3','4'],
@@ -108,11 +108,11 @@ class Solution:
         return "".join(s)
 ```
 
-## 680. Valid Palindrome II (Easy)
+## **680. Valid Palindrome II (Easy)**
 
 Problem: Given a string s, you may delete at most one character. Whether you can make it a palindrome.
 
-We have to make a helper to iterate through two situations, one is left+1, other one is right-1.  
+We have to make a helper to check two conditions, left+1 and right-1.  
 Time: O(n), Space: O(1)
 
 ```python
