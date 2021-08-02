@@ -1,8 +1,8 @@
 # Sorting
 
-* [[455] Assign Cookies]()
-* [[435] Non-overlapping Intervals]()
-* [[452] Minimum Number of Arrows to Burst Balloons]()
+* [[455] Assign Cookies](https://github.com/shaojim12/Leetcode-notes/blob/master/Greedy.md#455-assign-cookies)
+* [[435] Non-overlapping Intervals](https://github.com/shaojim12/Leetcode-notes/blob/master/Greedy.md#435-non-overlapping-intervals)
+* [[452] Minimum Number of Arrows to Burst Balloons](https://github.com/shaojim12/Leetcode-notes/blob/master/Greedy.md#452-minimum-number-of-arrows-to-burst-balloons)
 * [[406] Queue Reconstruction by Height]()
 * [[121] Best Time to Buy and Sell Stock]()
 * [[122] Best Time to Buy and Sell Stock II]()
@@ -108,7 +108,7 @@ class Solution:
         return shoots
 ```
 
-## **[75] Sort Colors**
+## **[406] Queue Reconstruction by Height**
 
 You are given an array of people, people, which are the attributes of some people in a queue (not necessarily in order). Each people[i] = [hi, ki] represents the ith person of height hi with exactly ki other people in front who have a height greater than or equal to hi.
 

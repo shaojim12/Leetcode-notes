@@ -1,10 +1,10 @@
 # Binary Search
 
-* [[69] Sqrt(x)]()
-* [[744] Find Smallest Letter Greater Than Target]()
-* [[540] Single Element in a Sorted Array]()
-* [[278] First Bad Version]()
-* [[34] Find First and Last Position of Element in Sorted Array]()
+* [[69] Sqrt(x)](https://github.com/shaojim12/Leetcode-notes/blob/master/Binary%20Search.md#69-sqrtx)
+* [[744] Find Smallest Letter Greater Than Target](https://github.com/shaojim12/Leetcode-notes/blob/master/Binary%20Search.md#744-find-smallest-letter-greater-than-target)
+* [[540] Single Element in a Sorted Array](https://github.com/shaojim12/Leetcode-notes/blob/master/Binary%20Search.md#540-single-element-in-a-sorted-array)
+* [[278] First Bad Version](https://github.com/shaojim12/Leetcode-notes/blob/master/Binary%20Search.md#278-first-bad-version)
+* [[34] Find First and Last Position of Element in Sorted Array](https://github.com/shaojim12/Leetcode-notes/blob/master/Binary%20Search.md#34-find-first-and-last-position-of-element-in-sorted-array)
 
 
 Binary search can find a target in O(log(n)).  

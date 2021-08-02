@@ -1,22 +1,22 @@
 # Search BFS, DFS
 
 bfs
-* [[69] Sqrt(x)]()
-* [[279] Perfect Squares]()
+* [[69] Sqrt(x)](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#69-sqrtx)
+* [[279] Perfect Squares](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#279-perfect-squares)
 
 dfs
-* [[695] Max Area of Island]()
-* [[547] Number of Provinces]()
-* [[130] Surrounded Regions]()
-* [[417] Pacific Atlantic Water Flow]()
+* [[695] Max Area of Island](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#695-max-area-of-island)
+* [[547] Number of Provinces](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#547-number-of-provinces)
+* [[130] Surrounded Regions](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#130-surrounded-regions)
+* [[417] Pacific Atlantic Water Flow](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#417-pacific-atlantic-water-flow)
 
 backtracking
-* [[93] Restore IP Addresses]()
-* [[79] Word Search]()
-* [[257] Binary Tree Paths]()
-* [[77] Combinations]()
-* [[216] Combination Sum III]()
-* [[90] Subsets II]()
+* [[93] Restore IP Addresses](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#93-restore-ip-addresses)
+* [[79] Word Search](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#79-word-search)
+* [[257] Binary Tree Paths](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#257-binary-tree-paths)
+* [[77] Combinations](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#77-combinations)
+* [[216] Combination Sum III](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#216-combination-sum-iii)
+* [[90] Subsets II](https://github.com/shaojim12/Leetcode-notes/blob/master/BFS%20DFS.md#90-subsets-ii)
 * [[131] Palindrome Partitioning]()
 * [[37] Sudoku Solver]()
 * [[51] N-Queens]()
@@ -515,40 +515,6 @@ class Solution:
         # otherwise return everything
         else:
             return 
-```
-
-## **[90] Subsets II**
-
-Given an integer array nums that may contain duplicates, return all possible subsets (the power set).
-
-The solution set must not contain duplicate subsets. Return the solution in any order.
-
-```python
-Input: nums = [1,2,2]
-Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
-```
-
-```python
-class Solution:
-    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
-        res = []
-        nums.sort() # sort the nums
-        self.dfs(res, -1, nums, -1, [])
-        return res
-
-    # res = result list, idx = count numbers that are in combines
-    # nums = nums, num_idx = store the index of where the position in the nums
-    # combine = store all the different combines
-    def dfs(self, res, idx, nums, num_idx, combines):
-        # skip the first one 
-        if idx != -1:
-            combines.append(nums[num_idx])
-        # add the non-duplicate list to result
-        if combines not in res:
-            res.append(combines)
-        # iterate through the nums
-        for i in range(num_idx+1, len(nums)):
-            self.dfs(res, idx+1, nums, i, combines[:idx+1])
 ```
 
 ## **[90] Subsets II**
